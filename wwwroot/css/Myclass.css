@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.Card {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+    justify-content: center;
+    background-color: #f4f4f9;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.Card p{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ID{
+    font-weight: 700;
+}
+
+.Xetsiz{
+    text-decoration: none;
+}

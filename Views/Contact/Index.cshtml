@@ -1,0 +1,17 @@
+﻿@model List<Contact>
+
+
+@foreach (Contact contact in Model)
+{
+    <a asp-controller="Contact" asp-action="Details" asp-route-id=" @contact.ID" class="Xetsiz">
+        <div class="Card">
+
+            <p class="ID">ID: @contact.ID</p>
+            <p class="Name">Name: @contact.Name</p>
+            <p class="Surname">Surname: @contact.Surname</p>
+
+        </div>
+    </a>
+       
+}
+
